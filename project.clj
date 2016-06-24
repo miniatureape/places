@@ -7,5 +7,6 @@
                  [ring/ring-core "1.4.0"]
                  [ring/ring-jetty-adapter "1.4.0"]
                  [org.clojure/java.jdbc "0.6.1"]
-                 [org.xerial/sqlite-jdbc "3.8.11.2"]]
+                 [org.xerial/sqlite-jdbc "3.8.11.2"]
+                 [com.google.maps/google-maps-services "0.1.15"]]
   :main homing.core)
