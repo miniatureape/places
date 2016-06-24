@@ -32,3 +32,9 @@
    (jdbc/update! db :places
                 place-data
                 ["longitude = ? and latitude = ?" longitude latitude]))
+
+(defn delete-place
+  "Update a place defined by longitude and latitude with place-data"
+  [longitude latitude]
+  (jdbc/delete! db :places
+                ["longitude = ? and latitude = ?" longitude latitude]))
