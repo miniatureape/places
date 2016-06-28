@@ -11,4 +11,5 @@
                  [org.xerial/sqlite-jdbc "3.8.11.2"]
                  [com.google.maps/google-maps-services "0.1.15"]]
   :plugins [[lein-ring "0.9.7"]]
-  :ring {:handler homing.core/application})
+  :ring {:handler homing.core/application :auto-reload? true})
+
